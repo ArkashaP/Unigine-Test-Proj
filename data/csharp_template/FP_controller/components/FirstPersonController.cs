@@ -1465,13 +1465,27 @@ public class FirstPersonController : Component
 		}
 
 		// update camera transformation taking into account all additional offsets of position and rotation
-		camera.WorldPosition = worldTransform * (new Vec3(cameraPositionOffset) + cameraCrouchOffset + AdditionalCameraOffset);
 
 		vec3 cameraDirection = vec3.FORWARD * MathLib.RotateZ(-cameraHorizontalAngle);
 		cameraDirection = cameraDirection * MathLib.Rotate(MathLib.Cross(cameraDirection, vec3.UP), 90.0f - cameraVerticalAngle);
 		cameraDirection = AdditionalCameraRotation * cameraDirection;
 		cameraDirection.Normalize();
 		camera.SetWorldDirection(cameraDirection, vec3.UP);
+
+		Vec3 p0 = worldTransform * (new Vec3(cameraPositionOffset) + cameraCrouchOffset + AdditionalCameraOffset);
+		Vec3 p1 = p0 - cameraDirection*5;
+
+
+		WorldIntersection intersection = new WorldIntersection();
+		
+		Object obj = World.GetIntersection(p0,p1,1,intersection);
+		Vec3 target_point = obj != null ? intersection.Point :  p1;
+		camera.WorldPosition = MathLib.Lerp(
+			camera.WorldPosition,
+			target_point+cameraDirection*2,
+			5f*Game.IFps
+		);
+		
 	}
 
 	private void SwapInterpolationDirection(Scalar startHeight, Scalar endHeight)

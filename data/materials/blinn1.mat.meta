@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.19.0.3">
+	<guid>e80d130a3df7db170f2dc01e071691c34480ada4</guid>
+	<type>material</type>
+	<hash>2fe13bfa</hash>
+	<runtimes>
+		<runtime id="e80d130a3df7db170f2dc01e071691c34480ada4" name="blinn1" link="0" type="5"/>
+	</runtimes>
+</asset>

@@ -46,6 +46,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="data/Scripts/WatchTarget.cs"/>
+		<Compile Include="data/Scripts/PlayerController.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="data\csharp_template\FP_controller\components\FirstPersonController.cs"/>

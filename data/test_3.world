@@ -734,7 +734,7 @@
 	</game>
 	<editor>
 		<node type="NodeDummy" id="995460272" name="static_content">
-			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<transform>0.999999880791 0 -3.65655338318e-31 0.0 0 0.999999880791 0 0.0 3.65655361828e-31 0 0.999999940395 0.0 1.11022302463e-16 -22.6123096944 0 1.0</transform>
 			<node type="NodeDummy" id="508254834" name="glass">
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
 				<node type="NodeReference" id="557633648" name="ObjectMeshStatic">
@@ -873,7 +873,7 @@
 			</node>
 		</node>
 		<node type="NodeDummy" id="1201620405" name="dynamic_content">
-			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<transform>0.999999880791 0 -3.65655338318e-31 0.0 0 0.999999880791 0 0.0 3.65655361828e-31 0 0.999999940395 0.0 1.11022302463e-16 -22.6123096944 0 1.0</transform>
 			<node type="NodeReference" id="1475233651" name="material_ball">
 				<reference>guid://09c9a80e7e0010153ae52270e2ba530f19742522</reference>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 8 6 1 1.0</transform>
@@ -912,7 +912,7 @@
 			</node>
 		</node>
 		<node type="NodeDummy" id="1368583642" name="lighting">
-			<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+			<transform>0.999999880791 0 -3.65655338318e-31 0.0 0 0.999999880791 0 0.0 3.65655361828e-31 0 0.999999940395 0.0 1.11022302463e-16 -22.6123096944 0 1.0</transform>
 			<node type="LightWorld" id="824505625" name="sun">
 				<scattering>1</scattering>
 				<disable_angle>100</disable_angle>
@@ -2566,9 +2566,103 @@
 				<transform>1 2.5243552e-29 0 0.0 -2.5243552e-29 1 -1.4210854e-14 0.0 -3.5873241e-43 1.4210855e-14 1 0.0 4.0681005 -1.2260934 5.4835181 1.0</transform>
 			</node>
 		</node>
-		<node type="NodeReference" id="1777446179" name="Plater_Controller">
-			<reference>guid://59e4bb833f8dab069c5b06ad189c382836a5bd67</reference>
-			<transform>-0.70710671 0.70710677 0 0.0 -0.70710677 -0.70710671 0 0.0 0 0 0.99999988 0.0 6.87639 11.499999 3.2710779 1.0</transform>
+		<node material="d512fadc55f8a9ffa30dbf10cd34bce6ae83d086" type="DecalOrtho" id="130147932" name="DecalOrtho">
+			<width>1</width>
+			<height>1</height>
+			<znear>0.00100000005</znear>
+			<radius>1</radius>
+			<transform>3.49999856949 0 0 0.0 0 3.50000023842 0 0.0 0 0 0.799999892712 0.0 0 0 0.752424090046 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="996570259" name="DeathTableEnemy">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="758517270" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="664625514" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1382518828" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1662920254" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="2072358944" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="2038801663" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="144554377" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="8fcfe49b1924c23ddb690bb76ffb3491a7a556c9">
+					<parameter name="target">992243719</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693858023e-22 -3.82130952044e-15 0.0 6.93749776036e-23 0.99998664856 8.74214265423e-08 0.0 3.82126462769e-15 -8.7420424677e-08 0.999975204468 0.0 -12.1513076405 -12.1419772997 2.57613447907 1.0</transform>
+		</node>
+		<node type="ObjectDummy" id="738001974" trigger_interaction_enabled="1" name="first_person_controller">
+			<body type="BodyDummy" id="1126606558" frozen="0">
+				<shape type="ShapeCapsule" id="363214936" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
+					<radius>0.300000012</radius>
+					<height>1.14999998</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="fda728e96fd590f3c0c31ecb2c0565437df86a8b">
+					<parameter name="useObjectBody">1</parameter>
+					<parameter name="cameraMode">2</parameter>
+					<parameter name="camera">1349070748</parameter>
+					<parameter name="nearClipping">0.100000001</parameter>
+					<parameter name="farClipping">100000</parameter>
+					<parameter name="debugVisualizer">
+						<parameter name="enabled">0</parameter>
+						<parameter name="triangles">1</parameter>
+						<parameter name="shapes">1</parameter>
+						<parameter name="playerShape">1</parameter>
+						<parameter name="playerDirection">1</parameter>
+						<parameter name="camera">1</parameter>
+						<parameter name="slopeBasis">1</parameter>
+						<parameter name="appliedHorizontalVelocity">1</parameter>
+						<parameter name="appliedVerticalVelocity">1</parameter>
+						<parameter name="upPassContacts">1</parameter>
+						<parameter name="sidePassContacts">1</parameter>
+						<parameter name="downPassContacts">1</parameter>
+						<parameter name="checkMoveRay">1</parameter>
+						<parameter name="stairDetectionRay">1</parameter>
+					</parameter>
+				</property>
+			</properties>
+			<transform>0.999999880395 -5.55111479226e-17 0 0.0 5.55111479226e-17 0.999999880395 0 0.0 0 0 0.999999880395 0.0 -5.37408478569 -14.3625128568 0.999999940395 1.0</transform>
+			<node type="ObjectMeshStatic" id="825994781" immovable="1" name="Capsule">
+				<mesh_name>guid://2511084aba3f527e1bac1a3087b07212ef83ab3a</mesh_name>
+				<surface name="capsule" material="a2418f4e9c1bee8908e65a1445ac38fe497c37be"/>
+				<transform>0.715147103968 3.96986414229e-17 0 0.0 -3.96986447316e-17 0.715147163572 0 0.0 0 0 0.915147294781 0.0 0 0 0.918334780958 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="78338264" immovable="1" name="Box">
+				<mesh_name>guid://cfd15498e9b7f461c364bf8e3ab42d0178c20008</mesh_name>
+				<surface name="box" material="12bdc43f6bdb82d298ac00d1df064432400315d1"/>
+				<transform>0.500000000198 2.7755577292e-17 0 0.0 -2.7755577292e-17 0.500000000198 0 0.0 0 0 0.300000047802 0.0 0 0.16398919808 1.52524425713 1.0</transform>
+			</node>
+		</node>
+		<node type="PlayerDummy" id="1349070748" name="PlayerDummy">
+			<znear>0.300000012</znear>
+			<zfar>100000</zfar>
+			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+			<is_oblique_frustum>0</is_oblique_frustum>
+			<is_main>1</is_main>
+			<is_listener>1</is_listener>
+			<controlled>1</controlled>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 -5.68389636456 -14.2792057953 2.56061440582 1.0</transform>
 		</node>
 	</editor>
 	<console>

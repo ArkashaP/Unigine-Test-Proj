@@ -10,10 +10,38 @@
 		<properties>
 			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="358905170baa5f8a0aa0c961814ed34cd80bf63b">
 				<parameter name="useObjectBody">1</parameter>
+				<parameter name="cameraMode">2</parameter>
+				<parameter name="camera">1349070748</parameter>
 				<parameter name="nearClipping">0.100000001</parameter>
 				<parameter name="farClipping">100000</parameter>
+				<parameter name="debugVisualizer">
+					<parameter name="enabled">0</parameter>
+					<parameter name="triangles">1</parameter>
+					<parameter name="shapes">1</parameter>
+					<parameter name="playerShape">1</parameter>
+					<parameter name="playerDirection">1</parameter>
+					<parameter name="camera">1</parameter>
+					<parameter name="slopeBasis">1</parameter>
+					<parameter name="appliedHorizontalVelocity">1</parameter>
+					<parameter name="appliedVerticalVelocity">1</parameter>
+					<parameter name="upPassContacts">1</parameter>
+					<parameter name="sidePassContacts">1</parameter>
+					<parameter name="downPassContacts">1</parameter>
+					<parameter name="checkMoveRay">1</parameter>
+					<parameter name="stairDetectionRay">1</parameter>
+				</parameter>
 			</property>
 		</properties>
-		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<transform>0.99999994 -5.55111512313e-17 0 0.0 5.55111512313e-17 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1387745417" immovable="1" name="Capsule">
+			<mesh_name>guid://2511084aba3f527e1bac1a3087b07212ef83ab3a</mesh_name>
+			<surface name="capsule" material="a2418f4e9c1bee8908e65a1445ac38fe497c37be"/>
+			<transform>0.715147103968 3.96986414229e-17 0 0.0 -3.96986447316e-17 0.715147163572 0 0.0 0 0 0.915147294781 0.0 0 0 0.918334780958 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1782740375" immovable="1" name="Box">
+			<mesh_name>guid://cfd15498e9b7f461c364bf8e3ab42d0178c20008</mesh_name>
+			<surface name="box" material="12bdc43f6bdb82d298ac00d1df064432400315d1"/>
+			<transform>0.500000000198 2.7755577292e-17 0 0.0 -2.7755577292e-17 0.500000000198 0 0.0 0 0 0.300000047802 0.0 0 0.16398919808 1.52524425713 1.0</transform>
+		</node>
 	</node>
 </nodes>
