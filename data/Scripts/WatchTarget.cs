@@ -10,7 +10,7 @@ public class WatchTarget : Component
 	public Node target;
 
 	public bool activated = false;
-	float activation_timer = MathLib.RandFloat(10f, 50f);
+	float activation_timer = MathLib.RandFloat(5f, 10f);
 	BodyRigid br;
 	dvec3 look_point;
 	dvec3 look_target;

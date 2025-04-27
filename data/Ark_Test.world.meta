@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.19.0.3">
+	<guid>0500794fce8ffbac8d65827223967ba9a7abfabe</guid>
+	<type>world</type>
+	<hash>ec40830c</hash>
+	<runtimes>
+		<runtime id="0500794fce8ffbac8d65827223967ba9a7abfabe" name="Ark_Test.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

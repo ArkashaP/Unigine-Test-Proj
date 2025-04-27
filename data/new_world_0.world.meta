@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.19.0.3">
+	<guid>a1419d838d51af207db26644b48b441af509cbcf</guid>
+	<type>world</type>
+	<hash>820a2e4b</hash>
+	<runtimes>
+		<runtime id="a1419d838d51af207db26644b48b441af509cbcf" name="new_world_0.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="script_name"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="viewports_settings"/>
+	</parameters>
+</asset>

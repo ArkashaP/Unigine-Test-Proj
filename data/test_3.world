@@ -2605,10 +2605,11 @@
 			</body>
 			<properties>
 				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="8fcfe49b1924c23ddb690bb76ffb3491a7a556c9">
-					<parameter name="target">992243719</parameter>
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
 				</property>
 			</properties>
-			<transform>0.999986886978 2.64693858023e-22 -3.82130952044e-15 0.0 6.93749776036e-23 0.99998664856 8.74214265423e-08 0.0 3.82126462769e-15 -8.7420424677e-08 0.999975204468 0.0 -12.1513076405 -12.1419772997 2.57613447907 1.0</transform>
+			<transform>0.999986886978 2.6469383278e-22 -3.82130867341e-15 0.0 6.93748703185e-23 0.99998664856 8.74214123314e-08 0.0 3.82126378066e-15 -8.74204104662e-08 0.999975204468 0.0 -12.1513076405 -12.1419772891 2.45441133706 1.0</transform>
 		</node>
 		<node type="ObjectDummy" id="738001974" trigger_interaction_enabled="1" name="first_person_controller">
 			<body type="BodyDummy" id="1126606558" frozen="0">
@@ -2677,6 +2678,424 @@
 					</node>
 				</node>
 			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="2143310017" name="DeathTableEnemy_1">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="328232445" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="799636148" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="713156227" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="699062790" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="932211117" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1791246120" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="74979431" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="eabd46a59337ac03a4afb290d550aad2ad9434fc">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693807536e-22 -3.82130740286e-15 0.0 6.9374674681e-23 0.99998664856 8.74213839097e-08 0.0 3.82126251011e-15 -8.74203820445e-08 0.999975204468 0.0 -16.1756347505 -12.1419772891 2.45441133706 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1010365228" name="DeathTableEnemy_2">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="72111928" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="844118682" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="2061846833" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="2064003292" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="951260811" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="739605102" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="2097938165" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="c1af5c9ff41408ae3ac1c75097ec29c746ae0c2b">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693782293e-22 -3.82130655583e-15 0.0 6.93745989503e-23 0.99998664856 8.74213768043e-08 0.0 3.82126166308e-15 -8.7420374939e-08 0.999975204468 0.0 -16.1756347505 -9.58243478484 2.45441156082 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="998429851" name="DeathTableEnemy_3">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="1669837111" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="1133347792" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1819509999" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1083895170" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1889586937" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1029811204" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="290604947" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="2ee83a5ffe01acaf1eb8b242ff7ab2b05c51b38e">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693731806e-22 -3.82130570879e-15 0.0 6.93745295306e-23 0.99998664856 8.74213625934e-08 0.0 3.82126081605e-15 -8.74203607282e-08 0.999975204468 0.0 -11.7548438063 -9.58243478484 2.45441156082 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="636256574" name="DeathTableEnemy_4">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="692968746" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="1669081046" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="629292349" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="57105784" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="950305399" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1717828970" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="97848769" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="56b79ce9aa1d97979879e502c962cbc002fda595">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693807536e-22 -3.82130782637e-15 0.0 6.93747630334e-23 0.99998664856 8.74213981206e-08 0.0 3.82126293363e-15 -8.74203962553e-08 0.999975204468 0.0 -14.2371155259 -17.286164815 2.45441088734 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="66992005" name="DeathTableEnemy_5">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="1956375169" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="1133808684" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="186620315" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1684046398" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="21513349" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1231318048" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="146616575" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="1f9ac0a96329f047cc22b544cdcf39669ed6b9f0">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693757049e-22 -3.82130528528e-15 0.0 6.93744096237e-23 0.99998664856 8.74213483826e-08 0.0 3.82126039253e-15 -8.74203465173e-08 0.999975204468 0.0 -13.8406516917 -14.7266223108 2.45441111111 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="645120800" name="DeathTableEnemy_6">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="778191340" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="1484196434" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="714679689" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="361460052" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1960783011" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1937254822" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="190264525" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="c2022243abbebcad998c360462ad48a603dc048f">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693782293e-22 -3.82130655583e-15 0.0 6.93745989503e-23 0.99998664856 8.74213768043e-08 0.0 3.82126166308e-15 -8.7420374939e-08 0.999975204468 0.0 -18.2614426359 -17.286164815 2.45441088734 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1580112895" name="DeathTableEnemy_7">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="767317083" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="921391048" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="313766023" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="85177402" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1911043665" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1489435516" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="366551211" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="242cfc033a78344df5c5cc164b1ca8598a6328a2">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693731806e-22 -3.82130570879e-15 0.0 6.93745295306e-23 0.99998664856 8.74213625934e-08 0.0 3.82126081605e-15 -8.74203607282e-08 0.999975204468 0.0 -18.2614426359 -14.7266223108 2.45441111111 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1390115154" name="DeathTableEnemy_8">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="1434353150" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="204258830" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1036791317" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="976660592" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1799495951" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1114479394" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1847681049" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="9c39532d0c26b0b036144ad655ca8387bd7a8f99">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693656075e-22 -3.82130359121e-15 0.0 6.93742455407e-23 0.99998664856 8.74213199609e-08 0.0 3.82125869846e-15 -8.74203180956e-08 0.999975204468 0.0 -15.4877725227 -3.359673401 2.45441210483 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1022150793" name="DeathTableEnemy_9">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="1205636421" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="47958692" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1046058419" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="924573558" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1986547805" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="685053464" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1583784599" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="a0a6d2ed683a4dbca2ef7b388e3dfce2b6d03424">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693706562e-22 -3.82130443824e-15 0.0 6.93743212713e-23 0.99998664856 8.74213341717e-08 0.0 3.8212595455e-15 -8.74203323065e-08 0.999975204468 0.0 -15.4877725227 -5.91921590523 2.45441188107 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1102886996" name="DeathTableEnemy_10">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="245931488" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="1294753546" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="495436513" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1542618828" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1748020155" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="815214046" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1796258725" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="c138fa276de9b4d9174f27f804aab8ba914bf133">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693681318e-22 -3.82130316769e-15 0.0 6.93741571882e-23 0.99998664856 8.74213128554e-08 0.0 3.82125827495e-15 -8.74203109902e-08 0.999975204468 0.0 -11.0669815786 -3.359673401 2.45441210483 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1151977379" name="DeathTableEnemy_11">
+			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
+			<surface name="blinn1" intersection="1" material="e80d130a3df7db170f2dc01e071691c34480ada4"/>
+			<body type="BodyRigid" id="348534719" frozen="0">
+				<angular_damping>3.34509993</angular_damping>
+				<shape type="ShapeCylinder" id="707344576" transform="1 4.7019774e-38 1.57772181e-30 0 -1.41059322e-37 1 0 0 -3.15544362e-30 0 1 0 -2.38418579e-07 5.96046448e-08 1.45958519 1">
+					<radius>1.02499998</radius>
+					<height>0.300000012</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1474516255" transform="1 4.7019774e-38 3.94430453e-30 0 -4.23177966e-37 1 0 0 -7.88860905e-30 0 1 0 -2.38418579e-07 5.96046448e-08 0.792846501 1">
+					<radius>0.175000012</radius>
+					<height>1.4000001</height>
+				</shape>
+				<shape type="ShapeCylinder" id="384540658" transform="0.398941845 2.42983612e-13 0.916976094 0 1.42108539e-14 0.99999994 -2.71900937e-13 0 -0.916976094 1.31059551e-13 0.398941845 0 0.495859981 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1724022441" transform="-0.366303831 -1.75678352e-07 0.930494308 0 7.3898093e-08 0.999999404 2.17892136e-07 0 -0.930494308 1.48576589e-07 -0.366303831 0 -0.49586001 5.96045915e-08 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1363654644" transform="0.99999851 9.05265251e-21 1.46345036e-20 0 -1.7063925e-20 0.367870629 0.929875731 0 3.31483725e-21 -0.92987597 0.367870718 0 1.33226763e-15 0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+				<shape type="ShapeCylinder" id="1731363523" transform="0.99999845 3.40970997e-21 -1.68669203e-20 0 -1.69384957e-20 0.367870718 -0.929875493 0 3.03424369e-21 0.929875851 0.367870837 0 1.33226763e-15 -0.49586001 0.216007277 1">
+					<radius>0.100000001</radius>
+					<height>0.699999988</height>
+				</shape>
+			</body>
+			<properties>
+				<property parent="475fce5a9a1456239d694c3cdc5c1b4e8d6485c2" guid="387d8fe7cb61bd4d5f37db2a10b531c96d5f84f6">
+					<parameter name="target">738001974</parameter>
+					<parameter name="activated">0</parameter>
+				</property>
+			</properties>
+			<transform>0.999986886978 2.64693731806e-22 -3.82130570879e-15 0.0 6.93745295306e-23 0.99998664856 8.74213625934e-08 0.0 3.82126081605e-15 -8.74203607282e-08 0.999975204468 0.0 -11.4634454128 -5.91921590523 2.45441188107 1.0</transform>
 		</node>
 	</editor>
 	<console>
