@@ -2571,7 +2571,7 @@
 			<height>1</height>
 			<znear>0.00100000005</znear>
 			<radius>1</radius>
-			<transform>3.49999856949 0 0 0.0 0 3.50000023842 0 0.0 0 0 0.799999892712 0.0 0 0 0.752424090046 1.0</transform>
+			<transform>3.49999833107 0 0 0.0 0 3.49999952316 0 0.0 0 0 0.799999773502 0.0 0.111812555546 -11.976214239 1.33510052124 1.0</transform>
 		</node>
 		<node type="ObjectMeshStatic" id="996570259" name="DeathTableEnemy">
 			<mesh_name>guid://74c7b9c05c119817d381e03495f9b4095e026a0a</mesh_name>
@@ -2672,6 +2672,20 @@
 				<surface name="Material.008" intersection="1" material="015ca14270cfb9b1ec8afee250da8346c6fe53e1"/>
 				<surface name="Material.007" intersection="1" material="1ce7727e6307eded53355e1e6581679f9931d0ed"/>
 				<transform>1 8.74227942467e-08 -8.74227800037e-08 0.0 8.74227942467e-08 -1.6292067191e-07 1 0.0 8.74227800037e-08 -1 -1.62920679553e-07 0.0 0 0 0 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1303318401" name="sliced_bread">
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0.586200644231 -12.867669552 0.999999940395 1.0</transform>
+			<node type="NodeDummy" id="1914249964" name="Sketchfab_model">
+				<transform>1 2.64697796017e-22 -3.82137123179e-15 0.0 9.26442286059e-23 1 8.74227800037e-08 0.0 3.82137123179e-15 -8.74227800037e-08 1 0.0 6.52179637571e-10 -0.00746006432067 -0.019796949206 1.0</transform>
+				<node type="NodeDummy" id="1957413211" name="bread_20k.obj.cleaner.materialmerger.gles">
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 1.56324552287e-18 1.0</transform>
+					<node type="ObjectMeshStatic" id="2048198398" immovable="1" name="Object_2">
+						<mesh_name>guid://b7861d57108a062439584ce67edc059960d9529d</mesh_name>
+						<surface name="bread_20k" intersection="1" material="096c0d99502c7a0bd76255e01956b7d6db0d154f"/>
+						<transform>0.999999940395 1.47227538745e-29 1.53998362613e-21 0.0 -2.32670957917e-23 0.999999940395 -2.14303273564e-14 0.0 -1.76775511454e-21 2.66411314155e-14 1 0.0 0 0 0.0806506776847 1.0</transform>
+					</node>
+				</node>
 			</node>
 		</node>
 	</editor>

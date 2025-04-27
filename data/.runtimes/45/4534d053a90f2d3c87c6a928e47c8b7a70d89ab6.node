@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.19.0.3">
+	<node type="NodeDummy" id="1303318401" name="sliced_bread">
+		<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="1914249964" name="Sketchfab_model">
+			<transform>1 2.64697796017e-22 -3.82137123179e-15 0.0 9.26442286059e-23 1 8.74227800037e-08 0.0 3.82137123179e-15 -8.74227800037e-08 1 0.0 6.52179637571e-10 -0.00746006432067 -0.019796949206 1.0</transform>
+			<node type="NodeDummy" id="1957413211" name="bread_20k.obj.cleaner.materialmerger.gles">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 1.56324552287e-18 1.0</transform>
+				<node type="ObjectMeshStatic" id="2048198398" immovable="1" name="Object_2">
+					<mesh_name>guid://b7861d57108a062439584ce67edc059960d9529d</mesh_name>
+					<surface name="bread_20k" intersection="1" material="096c0d99502c7a0bd76255e01956b7d6db0d154f"/>
+					<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 1.56324552287e-18 1.0</transform>
+				</node>
+			</node>
+		</node>
+	</node>
+</nodes>
