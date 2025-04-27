@@ -2,7 +2,7 @@
 <asset version="2.19.0.3">
 	<guid>fba6a268c15c8c967c68d2de452c305114dd53d8</guid>
 	<type>material_graph</type>
-	<hash>c54bc801</hash>
+	<hash>457cc90a</hash>
 	<runtimes>
 		<runtime id="fba6a268c15c8c967c68d2de452c305114dd53d8" name="sphere_mesh_base.mgraph" link="0"/>
 		<runtime id="4b3c85da7611aa13ea9dcf405376e5cf56ce22ca" name="sphere_mesh_base" link="1" type="5"/>

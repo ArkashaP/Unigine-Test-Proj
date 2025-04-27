@@ -481,7 +481,7 @@
 	"40b5d38734c298632ab789b6ba63f2fbf222d330": "editor2/resources/nodes/player_dummy.node",
 	"fd034c43a5fde397dd481978af39dcff646e04b5": "editor2/resources/nodes/object_dummy.node",
 	"3849926abc0d4be7560e902dd80013beb431d590": "shader_d3d12_dxc.cache",
-	"45dfad694b91d16911cd304971805ea62a7214ac": "unigine.cache",
+	"6cc85247d1daaa4417684e2d1c634ed91c30501a": "unigine.cache",
 	"9772cca15763bc7bffbf6c286cb4e8f272c7e2b2": "editor.cache",
 	"baea568bd2972617a4e12451e990223f1a219369": "d3d12_nvidia_geforce_gtx_1660_dxc.gpu_cache",
 	"9fbfb6ffe5056fffbae85b646bab6718499d0651": "core/locale/unigine.locale",
