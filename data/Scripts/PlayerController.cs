@@ -7,7 +7,7 @@ public class PlayerController : Component
 {
 	void Init()
 	{
-		
+		// Some changes
 	}
 	
 	void Update()
