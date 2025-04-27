@@ -2662,7 +2662,17 @@
 			<is_main>1</is_main>
 			<is_listener>1</is_listener>
 			<controlled>1</controlled>
-			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 -5.68389636456 -14.2792057953 2.56061440582 1.0</transform>
+			<transform>0.564969182014 -0.825111985207 7.15255737339e-07 0.0 0.618927121162 0.42379128933 0.661309361458 0.0 -0.545654594898 -0.373618960381 0.750113248825 0.0 -6.01978768574 -14.5091962684 3.36987538101 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="752703110" name="low_poly_mushroom_3">
+			<transform>0.999999880791 2.64697493094e-22 -3.8213675422e-15 0.0 6.93769466004e-23 0.999999880791 8.74227197301e-08 0.0 3.8213675422e-15 -8.74227197301e-08 0.999999940395 0.0 17.283137028 -39.2995453304 0.699999968708 1.0</transform>
+			<node type="ObjectMeshStatic" id="658226221" immovable="1" name="Circle">
+				<mesh_name>guid://ee5acb7250c32334336f0112380e155fa53a3051</mesh_name>
+				<surface name="Material.005" intersection="1" material="3482a48a04458e3eabfbc62a2b52aa1935315689"/>
+				<surface name="Material.008" intersection="1" material="015ca14270cfb9b1ec8afee250da8346c6fe53e1"/>
+				<surface name="Material.007" intersection="1" material="1ce7727e6307eded53355e1e6581679f9931d0ed"/>
+				<transform>1 8.74227942467e-08 -8.74227800037e-08 0.0 8.74227942467e-08 -1.6292067191e-07 1 0.0 8.74227800037e-08 -1 -1.62920679553e-07 0.0 0 0 0 1.0</transform>
+			</node>
 		</node>
 	</editor>
 	<console>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.19.0.3">
+	<node type="NodeDummy" id="1423606561" name="low_poly_mushroom_3">
+		<transform>1 2.64697796017e-22 -3.82137123179e-15 0.0 9.26442286059e-23 1 8.74227800037e-08 0.0 3.82137123179e-15 -8.74227800037e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1778369036" immovable="1" name="Circle">
+			<mesh_name>guid://ee5acb7250c32334336f0112380e155fa53a3051</mesh_name>
+			<surface name="Material.005" intersection="1" material="3482a48a04458e3eabfbc62a2b52aa1935315689"/>
+			<surface name="Material.008" intersection="1" material="015ca14270cfb9b1ec8afee250da8346c6fe53e1"/>
+			<surface name="Material.007" intersection="1" material="1ce7727e6307eded53355e1e6581679f9931d0ed"/>
+			<transform>1 8.74227942467e-08 -8.74227800037e-08 0.0 8.74227942467e-08 -1.6292067191e-07 1 0.0 8.74227800037e-08 -1 -1.62920679553e-07 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

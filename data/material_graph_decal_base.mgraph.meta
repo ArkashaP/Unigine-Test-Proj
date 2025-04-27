@@ -2,7 +2,7 @@
 <asset version="2.19.0.3">
 	<guid>7facaf7399f5ca9891b9490f66a8180c06823ae1</guid>
 	<type>material_graph</type>
-	<hash>573076fa</hash>
+	<hash>6aef517</hash>
 	<runtimes>
 		<runtime id="7facaf7399f5ca9891b9490f66a8180c06823ae1" name="material_graph_decal_base.mgraph" link="0"/>
 		<runtime id="8bad43ddf01972b53b1e0ed90c10934378a9e3bb" name="material_graph_decal_base" link="1" type="5"/>
