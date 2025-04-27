@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Security.Cryptography.X509Certificates;
 using Unigine;
-
+// ало ало Виктория на связи
 [Component(PropertyGuid = "475fce5a9a1456239d694c3cdc5c1b4e8d6485c2")]
 public class WatchTarget : Component
 {
