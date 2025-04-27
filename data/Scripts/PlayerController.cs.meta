@@ -2,7 +2,7 @@
 <asset version="2.19.0.3">
 	<guid>d6907bfbfc141effa8136e6d7105a0ef5c0d5e6d</guid>
 	<type>component</type>
-	<hash>35aa2d87</hash>
+	<hash>e1a8f1a6</hash>
 	<runtimes>
 		<runtime id="d6907bfbfc141effa8136e6d7105a0ef5c0d5e6d" name="PlayerController.cs" link="0"/>
 		<runtime id="ad1a7de16e663dbd9d4a0b839cb28b46a9e16d43" name="PlayerController.prop" link="1" type="4"/>
